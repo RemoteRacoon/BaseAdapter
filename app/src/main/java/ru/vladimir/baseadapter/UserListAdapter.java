@@ -16,6 +16,7 @@ import java.util.Comparator;
 public class UserListAdapter extends BaseAdapter {
     Context ctx;
     ArrayList<User> users;
+    LayoutInflater layoutInflater;
 
     public void resetList(String option) {
         switch (option) {
@@ -52,9 +53,12 @@ public class UserListAdapter extends BaseAdapter {
         }
     }
 
+
     public UserListAdapter(Context ctx, ArrayList<User> users) {
         this.ctx = ctx;
         this.users = users;
+        layoutInflater = (LayoutInflater) ctx
+                .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
     }
 
     @Override
@@ -74,10 +78,13 @@ public class UserListAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        User u = users.get(position);
 
-        convertView = LayoutInflater.from(ctx)
-                .inflate(R.layout.user_item, parent, false);
+        if (convertView == null) {
+            convertView = layoutInflater
+                    .inflate(R.layout.user_item, parent, false);
+        }
+
+        User u = users.get(position);
 
         ImageView userPic = convertView.findViewById(R.id.userPic);
 
