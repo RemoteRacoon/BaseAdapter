@@ -1,0 +1,9 @@
+.gradle/
+.idea/caches/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+BaseAdapter.iml
+app/app.iml
+local.properties
+

@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Vladimir",
+    "phoneNumber" : "8964*****15",
+    "sex" : "MAN"
+  },
+  {
+    "name": "Anton",
+    "phoneNumber" : "8924*****98",
+    "sex" : "MAN"
+  },
+  {
+    "name": "Yana",
+    "phoneNumber" : "8952*****84",
+    "sex" : "WOMAN"
+  },
+  {
+    "name": "Anastasia",
+    "phoneNumber" : "8914*****14",
+    "sex" : "WOMAN"
+  },
+  {
+    "name": "UFO",
+    "phoneNumber" : "!@#*&^%",
+    "sex" : "UNKNOWN"
+  },
+  {
+    "name": "Peter",
+    "phoneNumber" : "8********15",
+    "sex" : "MAN"
+  },
+  {
+    "name": "Britney",
+    "phoneNumber" : "3445*****00",
+    "sex" : "WOMAN"
+  },
+  {
+    "name": "Britney",
+    "phoneNumber" : "3445*****00",
+    "sex" : "WOMAN"
+  },
+  {
+    "name": "Britney",
+    "phoneNumber" : "3445*****00",
+    "sex" : "WOMAN"
+  }
+]
